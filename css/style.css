@@ -1,0 +1,651 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    /* ------------------------------
+    Regras Gerais
+------------------------------ */
+    
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        background: #8CD1FF;
+        color: #FFFFFF;
+    }
+    
+    .affix {
+        position: fixed;
+    }
+ 
+    /* ------------------------------
+    Header
+------------------------------ */
+    
+    header {
+        background: #FFFFFF;
+        top: 0;
+        left: 0;
+        color: #8CD1FF;
+        height: 80px;
+        width: 100%;
+        z-index: 100;
+    }
+
+    a {
+        text-decoration: none;
+        color: #8CD1FF;
+    }
+    
+    .logo2 {
+        font-size: 60px;
+        line-height: auto;
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: .15rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin-top: -80px;
+        padding-left: 150px;
+    }
+    
+    .logo img {
+        width: 14%;
+        height: auto;
+        margin-top: -5px;
+    }
+    
+    * {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav {
+        margin: 0px;
+    }
+    /* menu */
+    
+    nav ul li {
+        float: right;
+        position: relative;
+    }
+    /* items menu */
+    
+    nav ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #8CD1FF;
+        padding: 27px;
+        padding-right:50px;
+        padding-left: 50px;
+        padding-bottom: 10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        background: white;
+        Font-size: 36px;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover {
+        background: #ccc;
+    }
+    /* ------------------------------
+    Main
+------------------------------ */
+    
+    main {
+        margin-top: 75px;
+        height: calc(100% - 150px);
+    }
+    
+    main .texto {
+        margin-top: 60px;
+    }
+    
+    main .texto h2 {
+        font-size: 2.5vw;
+        line-height: 1vw;
+        font-weight: bold;
+        margin-bottom: 80px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .contacttext h1 {
+        text-align: left;
+        margin-top: -695px;
+        margin-bottom: 30px;
+        font-size: 48px;
+        margin-left: 550px;
+        font-weight: bold;
+        padding: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .contacttext p {
+        text-align: center;
+        font-size: 24px;
+        text-align: justify;
+        margin-left: 550px;
+        margin-right: 200px;
+        padding: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .contactinfo h1 {
+        font-size: 36px;
+        margin-left: 525px;
+        font-weight: bold;
+        padding: 25px;
+        margin-top: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .contactinfo2 h1 {
+        font-size: 36px;
+        margin-left: 525px;
+        font-weight: bold;
+        padding: 25px;
+        margin-top: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .contactinfo3 h1 {
+        font-size: 36px;
+        margin-left: 550px;
+        margin-top: 60px;
+        font-weight: bold;
+        padding: 0px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .col-md-4 h1 {
+        text-align: left;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: justify;
+        margin-left: -10px;
+        margin-bottom: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main h1 {
+        font-weight: bold;
+        font-size: 48px;
+        margin-left: 14px;
+    }
+
+    main .ptext1 p {
+        width: 50%;
+        float:left;
+        margin-left: -14px;
+        font-size: 24px;
+        text-align: justify;
+        margin-top: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    
+    main .ptext2 p {
+        float: right;
+        width: 49%;
+        margin-left: 0px;
+        font-size: 24px;
+        text-align: justify;
+        margin-top: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .texto p {
+        font-size: 1.5vw;
+        line-height: 2vw;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    main .imagem {
+        text-align: center;
+    }
+    
+
+    
+    main .imagemproject img {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-width: 20px;
+        border-color: white;
+        width: 99%;
+        height: auto;
+    }
+    
+    main .imagem img {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border-width: 20px;
+        border-color: white;
+        width: 99%;
+        height: auto;
+    }
+    
+    main .imagemcontact img {
+        margin-top: 25px;
+        margin-bottom: 0px;
+        margin-right: 200px;
+        margin-left: 10px;
+        border-width: 20px;
+        border-color: white;
+        width: 52%;
+        height: auto;
+    }
+    
+    main .col-md-4 img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-width: 20px;
+    }
+    
+    main .col-md-6 img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-width: 20px;
+    }
+    
+    main .col-sm-6 img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        border-width: 20px;
+    }
+
+    .botpimg
+    {
+        padding-bottom: 80px;
+    }
+    
+    main .col-md-2 img {
+        float: right;
+        width: 100%;
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border-width: 20px;
+    }
+    
+    main .col-sm-4 img {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 100px;
+        margin-right: 10px;
+        border-width: 20px;
+    }
+    
+    main .col-md-4 h1 {
+        font-size: 48px;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-right: 5px;
+        color: white;
+    }
+    
+    main .col-md-4 p {
+        font-size: 24px;
+        margin-top: 10px;
+        margin-left: 0px;
+        color: white;
+        padding-bottom: 50px;
+    }
+    /* ------------------------------
+    Footer
+------------------------------ */
+
+    
+    footer {
+        position: fixed;
+        background: #FFFFFF;
+        bottom: 0;
+        left: 0;
+        right:0;
+        color: #8CD1FF;
+        height: 80px;
+        width: 100%;
+        z-index: 999999;
+    }
+    
+    
+    footer .col-sm-2 img {
+        width: 20%;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: -13px;
+        margin-right: 10px;
+    }
+    
+    footer .col-sm-2 h1 {
+        color: #8CD1FF;
+        width: 100%;
+        height: auto;
+        margin-left: 70px;
+        margin-top: -20px;
+        font-size: 20px;
+    }
+    /* ------------------------------
+    Mobile
+------------------------------ */
+    
+    @media (max-width: 768px) {
+        html,
+        body {
+            overflow: auto;
+        }
+        
+
+        html{
+
+            margin:0;
+
+        }
+
+
+
+        header {
+            background: #FFFFFF;
+            top: 0;
+            left: 0;
+            color: #8CD1FF;
+            height: 80px;
+            width: 100%;
+            padding-top: 0px;
+            padding-right: 0;
+            z-index: 100;
+
+        }
+
+        .hamIcon {
+            font-size: 40px;
+            margin-top: -40px;
+            margin-bottom: 200px;
+            margin-right: 34px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-bottom: 12px;
+            padding-right: 0px;
+            padding-left: 3px;
+            width: 50px;
+            height: 50px;
+        }
+        /* sub-menu */
+        nav ul li ul {
+            width: 300px;
+            position: absolute;
+            display: none;
+            padding-top: 10px;
+            margin-top: -201px;
+            padding: 10px;
+        }
+        /* items sub-menu*/
+        nav ul li ul li a {
+            width: 531px;
+            height: auto;
+            margin-right: -20px;
+            margin-top: -5px;
+        }
+        /* dropdown */
+        nav ul li:hover ul {
+            display: block;
+            z-index: 10;
+            width: 100%;
+            padding: 10px;
+            line-height: 35px;
+        }
+        .menu {
+            display: none;
+        }
+        .logo img {
+            width: 25%;
+            height: auto;
+            margin-left:-45px;
+            margin-top:0px;
+          
+        }
+        .logo2 {
+            font-size: 36px;
+            line-height: auto;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: .15rem;
+            font-family: 'Roboto Condensed', sans-serif;
+            margin-top: -60px;
+            margin-left: 45px;
+            padding-left: 0px;
+        }
+        nav {
+            margin: -35px;
+        }
+        /* menu */
+        nav ul li {
+            position: relative;
+        }
+        /* items menu */
+        nav ul li a {
+            display: inline-block;
+            text-decoration: none;
+            color: #8CD1FF;
+            padding: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-bottom: 5px;
+            margin-right: 5px;
+            margin-bottom: 5px;
+            background: white;
+            Font-size: 18px;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            background: #ccc;
+        }
+        /* main */
+        main {
+            margin-top: 75px;
+            width:95%;
+            height: auto;
+        }
+        main .texto {
+            margin-top: 30px;
+        }
+        main .texto h2 {
+            font-size: 6vw;
+            line-height: 7vw;
+            font-weight: 700;
+            margin-bottom: 7vw;
+            font-family: 'Rubik', sans-serif;
+        }
+        main .texto p {
+            font-size: 4.8vw;
+            line-height: 6vw;
+            font-family: 'Roboto', sans-serif;
+        }
+        main .imagem {
+            margin-top: 30px;
+        }
+        main .imagem img {
+            width: 100%;
+            height: auto;
+        }
+
+        main .contacttext h1 {
+            text-align: left;
+            margin-top: 20px;
+            font-size: 48px;
+            margin-left: -5px;
+            font-weight: bold;
+            padding: 0px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        
+        main .contacttext p {
+            text-align: center;
+            font-size: 18px;
+            text-align: justify;
+            margin-left: -20px;
+            margin-right: -20px;
+            padding: 20px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        main .contactinfo h1 {
+            display: none;
+        }
+        
+        main .contactinfo2 h1 {
+          display: none;
+        }
+        
+        main .contactinfo3 h1 {
+            display: none;
+        }
+        .imgcontactmini1 {
+         
+            margin-bottom: 40px;
+            margin-left: -20px;
+        }
+        .imgcontactmini1 h1 {
+            font-size: 24px;
+             margin-top: -70px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+        .imgcontactmini2 {
+        
+            margin-bottom: 40px;
+            margin-left: -20px;
+        }
+
+        .imgcontactmini2 h1 {
+            font-size: 24px;
+             margin-top: -70px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+        
+
+        .imgcontactmini3 {
+         
+            margin-bottom: 40px;
+            margin-left: -20px;
+        }
+
+        .imgcontactmini3 h1 {
+            font-size: 24px;
+             margin-top: -70px;
+            margin-bottom: 20px;
+            margin-left: 120px;
+        }
+
+        .imagemcontact{
+            display:none;
+        }
+
+        main .ptext1 p {
+            width: 110%;
+            float:center;
+            margin-left: -14px;
+            font-size: 18px;
+            text-align: justify;
+            margin-top: 50px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        
+        
+        main .ptext2 p {
+            float: center;
+            width: 109%;
+            margin-left: -14px;
+            margin-right: -23px;
+            font-size: 18px;
+            text-align: justify;
+            margin-top: 50px;
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+
+        /* ------------------------------
+    Footer Mobile
+------------------------------ */
+.affix {
+    position: fixed;
+}
+footer {
+    position: relative;
+    background: #FFFFFF;
+    color: #0066ff;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    height: 80px;
+    width: 100%;
+}
+
+
+
+footer .col-sm-2 img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: -45px;
+    margin-left: -1px;
+}
+
+footer .col-sm-2 h1 {
+    color: #8CD1FF;
+    display: none;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+    
+    }
+    
+    @media (min-width: 768px) {
+        .hamIcon {
+            display: none;
+        }
+
+        .menu {
+            display: none;
+        }
+
+        .imgcontactmini1 {
+            display:none;
+        }
+        .imgcontactmini2 {
+            display:none;
+        }
+
+        .imgcontactmini3 {
+            display:none;
+        }
+
+
+
+
+    }
+    
+    
